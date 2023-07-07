@@ -4,7 +4,10 @@
    padding: 0;
    box-sizing: border-box;
  }
-
+body{
+  background-color: rgb(112, 112, 112);
+  color: white;
+}
  .header {
    height: 100vh;
    background-color: black;
@@ -48,3 +51,80 @@
   flex-direction: column;
 
  }
+ .Contacts {
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.Contacts-left {
+  flex-basis: 50%;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.sub-title {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.Contacts-left p {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.Contacts-left .social-icons {
+  margin-top: 20px;
+}
+
+.Contacts-left .social-icons a {
+  color: #333;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.Contacts-right {
+  flex-basis: 50%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.copyright {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #888;
+}
